@@ -6,8 +6,8 @@ require("dotenv").config();
 const OpenAI = require("openai"); 
 
 const openai = new OpenAI({
-    apiKey: "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"
-    //apiKey: "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",
+    apiKey: ""
+    
   });
 
 const app = express();
